@@ -1,0 +1,40 @@
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Django-specific files
+*.log
+*.pot
+local_settings.py
+db.sqlite3
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+.coverage
+htmlcov/
+.tox/
+.eggs/
+*.egg-info/
+
+# Static and media files (if generated locally)
+static/
+media/
+
+# Node modules (if using JS tooling)
+node_modules/
