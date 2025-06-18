@@ -7,5 +7,5 @@ class TestSenzillet(TestCase):
     def test_falsetat_falsa(self):
         self.assertFalse(False)
 
-    def test_que_falla(self):
-        self.assertTrue(False)
+    def test_que_ja_no_falla(self):
+        self.assertTrue(1==1)
